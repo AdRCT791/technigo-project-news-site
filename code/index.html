@@ -1,23 +1,163 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <!-- Change the title below -->
-    <title>News Site</title>
-    <link rel="stylesheet" href="./style.css" />
-    <!-- dont forget the meta tag for responsiveness -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>40-0</title>
   </head>
   <body>
     <header>
-      <!-- Some kind of logo and navbar -->
+      <nav>
+        <ul>
+          <li class="logo">
+            <a href="index.html">40-0</a>
+          </li>
+          <li>
+            <a href="">Scores</a>
+          </li>
+          <li>
+            <a href="">Players</a>
+          </li>
+          <li>
+            <a href="">Tournaments</a>
+          </li>
+          <li>
+            <a href="">Rankings</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-
-    <section class="big-news">
-      <!-- The big news content -->
-    </section>
-
-    <section class="">
-      <!-- The other news  -->
-    </section>
+    <div class="grid-layout">
+      <main>
+        <h1>Latest News</h1>
+        <div class="articles-container">
+          <article class="news-highlight">
+            <h2>Sinner-mania!</h2>
+            <img
+              src="./assets/sinner-australian-open-2025-trophy-high-view.jpg"
+              alt="Jannik Sinner width Australian Open 2025 Trophy"
+            />
+          </article>
+          <article>
+            <h2>Keys stuns reigning champion Sabalenka</h2>
+            <img
+              src="./assets/madison-keys-trophyao.jpg"
+              alt="Madison Keys with Australian Open Trophy"
+            />
+          </article>
+          <article>
+            <h2>What happens after the Australian Open?</h2>
+            <img src="./assets/daviscup-trophy.jpg" alt="Davis Cup" />
+          </article>
+          <article>
+            <h2>Young players to follow this year</h2>
+            <img
+              src="./assets/joao-fonseca.jpg"
+              alt="Joao Fonseca Tennis Player"
+            />
+          </article>
+          <article>
+            <h2>What is Roger Federer doing in retirement?</h2>
+            <img
+              src="./assets/roger-federer-retirement.jpg"
+              alt="Roger Federer in retirement"
+            />
+          </article>
+        </div>
+      </main>
+      <aside>
+        <div class="card card-scores">
+          <h2>Latest Scores</h2>
+          <div class="match">
+            <div class="match-name">
+              <span>Australian Open - Final - ATP Singles</span>
+            </div>
+            <div class="match-info">
+              <div class="flex-row">
+                <img
+                  src="./assets/flag-italy-48.png"
+                  alt=""
+                  srcset=""
+                  class="flag"
+                />
+                <span class="player-name"><strong>Jannik Sinner</strong></span>
+                <div class="match-scores">
+                  <span>6</span>
+                  <span>7</span>
+                  <span>6</span>
+                </div>
+              </div>
+              <div class="flex-row">
+                <img
+                  src="./assets/flag-germany-48.png"
+                  alt=""
+                  srcset=""
+                  class="flag"
+                />
+                <span class="player-name">Alexander Zverev</span>
+                <div class="match-scores">
+                  <span>3</span>
+                  <span>6</span>
+                  <span>4</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="match">
+            <span class="match-name"
+              >Australian Open - Final - WTA Singles</span
+            >
+            <div class="match-info">
+              <div class="flex-row">
+                <img
+                  src="./assets/flag-usa-48.png"
+                  alt=""
+                  srcset=""
+                  class="flag"
+                />
+                <span class="player-name"><strong>Madison Keys</strong></span>
+                <div class="match-scores">
+                  <span>6</span>
+                  <span>2</span>
+                  <span>7</span>
+                </div>
+              </div>
+              <div class="flex-row">
+                <img
+                  src="./assets/flag-belarus-48.png"
+                  alt=""
+                  srcset=""
+                  class="flag"
+                />
+                <span class="player-name">Aryna Sabalenka</span>
+                <div class="match-scores">
+                  <span>3</span>
+                  <span>6</span>
+                  <span>6</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card player-card">
+          <h2>Player of the Month</h2>
+          <div class="player-month-wrapper">
+            <div class="player-month-image-wrapper">
+              <img src="./assets/jannik-sinner.png" alt="Jannik Sinner" />
+            </div>
+            <div class="player-month-info">
+              <h3>Jannik Sinner</h3>
+              <p>
+                Jannik Sinner wins back to back Australian Open titles. He is
+                the first player achieve this feat since Novak Djokovic in 2011.
+                He confirms is status as the best player in the world.
+              </p>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <footer></footer>
   </body>
 </html>
